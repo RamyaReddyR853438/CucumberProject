@@ -1,0 +1,406 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 11,
+        "name": "validating login",
+        "description": "",
+        "id": "flipkart-shopping;validating-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18395754418,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I launch Chrome Browser",
+            "match": {
+              "location": "StepdefLogin.chromeBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 585616493,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter \"7386670356\" and \"ramya448\" in the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7386670356",
+                  "offset": 7
+                },
+                {
+                  "val": "ramya448",
+                  "offset": 24
+                }
+              ],
+              "location": "StepdefLogin.login(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 90506939,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click submit button",
+            "match": {
+              "location": "StepdefLogin.loginToApp_signin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2491165882,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Takes Screenshot",
+            "match": {
+              "location": "StepdefLogin.Takessnapshot()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@tc_01_login"
+          },
+          {
+            "line": 1,
+            "name": "@Flipkart"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "validating search",
+        "description": "",
+        "id": "flipkart-shopping;validating-search;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13813988157,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I launch chrome Browser",
+            "match": {
+              "location": "StepdefOfferzone.chromeBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 523556653,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter  \"7386670356\" and \"ramya448\" in the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7386670356",
+                  "offset": 10
+                },
+                {
+                  "val": "ramya448",
+                  "offset": 27
+                }
+              ],
+              "location": "StepdefOfferzone.login(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 190700475,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "click on submit button",
+            "match": {
+              "location": "StepdefOfferzone.loginToApp_signin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4016640825,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "click on offerzone",
+            "match": {
+              "location": "StepdefOfferzone.login_offer()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5009607237,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Takes screenshot",
+            "match": {
+              "location": "StepdefOfferzone.takes_a_screenshot()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@tc_02_Search"
+          },
+          {
+            "line": 1,
+            "name": "@Flipkart"
+          }
+        ]
+      },
+      {
+        "line": 39,
+        "name": "validating selection",
+        "description": "",
+        "id": "flipkart-shopping;validating-selection;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15980908832,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I launch chrome browser",
+            "match": {
+              "location": "StepdefSelection.chromeBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 415118651,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Now enter  \"7386670356\" and \"ramya448\" in the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7386670356",
+                  "offset": 12
+                },
+                {
+                  "val": "ramya448",
+                  "offset": 29
+                }
+              ],
+              "location": "StepdefSelection.login(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 141001146,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "click on Submit button",
+            "match": {
+              "location": "StepdefSelection.loginToApp_signin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 508292252,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Go to offerzone",
+            "match": {
+              "location": "StepdefSelection.Offer_Selection()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11604979021,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "click on viewall",
+            "match": {
+              "location": "StepdefSelection.Selectionpage_viewall()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1488585832,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "takes screenshot",
+            "match": {
+              "location": "StepdefSelection.takes_a_screenshot()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 27,
+            "name": "@tc_03_Selection"
+          },
+          {
+            "line": 1,
+            "name": "@Flipkart"
+          }
+        ]
+      },
+      {
+        "line": 53,
+        "name": "validating ProductDisplay",
+        "description": "",
+        "id": "flipkart-shopping;validating-productdisplay;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24316525113,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I launch Chrome browser",
+            "match": {
+              "location": "StepdefDisplayProduct.chromeBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 432002249,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Enter  \"7386670356\" and \"ramya448\" in the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7386670356",
+                  "offset": 8
+                },
+                {
+                  "val": "ramya448",
+                  "offset": 25
+                }
+              ],
+              "location": "StepdefDisplayProduct.login(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 100900521,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "click on Submit Button",
+            "match": {
+              "location": "StepdefDisplayProduct.loginToApp_signin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 438719678,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Go to Offerzone",
+            "match": {
+              "location": "StepdefDisplayProduct.Offer_Selection()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 34502909435,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Select the type of item from fashion and deals",
+            "match": {
+              "location": "StepdefDisplayProduct.Displayproductpage_Product()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 478167077,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "takes Screenshot",
+            "match": {
+              "location": "StepdefDisplayProduct.takes_a_screenshot()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 42,
+            "name": "@tc_04_Display"
+          },
+          {
+            "line": 1,
+            "name": "@Flipkart"
+          }
+        ]
+      }
+    ],
+    "name": "Flipkart Shopping",
+    "description": "",
+    "id": "flipkart-shopping",
+    "keyword": "Feature",
+    "uri": "src/test/resources/FlipkartFeature/Flipkarttestcase.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Flipkart"
+      }
+    ]
+  }
+]
